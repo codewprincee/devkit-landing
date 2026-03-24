@@ -110,7 +110,7 @@ function Hero() {
 
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-delay-3">
           <a
-            href="https://github.com/codewprincee/devkit/releases"
+            href="https://github.com/codewprincee/devkit/releases/latest"
             className="inline-flex items-center justify-center rounded-lg bg-indigo-500 px-8 py-3.5 text-sm font-medium text-white hover:bg-indigo-400 transition-colors"
           >
             <svg
@@ -125,13 +125,24 @@ function Hero() {
             Download for macOS
           </a>
           <a
-            href="https://github.com/codewprincee/devkit"
+            href="https://apipad-web.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-lg border border-border-bright px-8 py-3.5 text-sm font-medium text-gray-300 hover:border-gray-600 hover:bg-surface transition-colors"
           >
+            Try API Pad in Browser
+          </a>
+        </div>
+
+        <div className="mt-4 flex items-center justify-center gap-4 animate-fade-in-delay-3">
+          <a
+            href="https://github.com/codewprincee/devkit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-gray-300 transition-colors"
+          >
             <svg
-              className="mr-2 h-4 w-4"
+              className="h-4 w-4"
               viewBox="0 0 24 24"
               fill="currentColor"
               aria-hidden="true"
